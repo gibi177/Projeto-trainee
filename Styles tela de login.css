@@ -86,11 +86,27 @@ body{
 .input-box .icon{
     position: absolute;
     right: 1.5rem;
-    top: 30%;
+    top: 32%;
 }
 .remember-forgot{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 1rem 0 1.2rem 1rem;
+}
+.remember-forgot a{
+    color: #36454F;
+}
+.btnlogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid #001861;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    color: #36454F;
+    font-weight: bold;
+    padding: 0.5rem 1.2rem;
+    background-color: #F9F6EE;
+    margin-left: 5.9rem;
 }

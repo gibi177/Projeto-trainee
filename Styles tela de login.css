@@ -32,7 +32,7 @@ header img {
 }
 html, body {
     height: 100%;
-    margin: 0;
+    margin: 2.5rem 0;
 }
 body{
     background-color: #001861;
@@ -57,4 +57,40 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0.5rem 0 1rem 0;
+}
+.login-box form{
+    margin-left: -1rem;
+}
+.input-box{
+    position: relative;
+    margin: 1rem 0;
+    padding: 0.5rem 1.2rem;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 0.1rem solid #001861;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #36454F;
+    padding: 0.5rem 0.5rem;
+}
+.input-box input::placeholder{
+    color: #36454F;
+    font-weight: bold;
+    font-size: 0.8rem;  
+}
+.input-box .icon{
+    position: absolute;
+    right: 1.5rem;
+    top: 30%;
+}
+.remember-forgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
 }

@@ -40,20 +40,23 @@ html, body {
 }
 
 body{
+
+    height: fit-content;
     background-color: #001861;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .comment-box{
-    position: absolute;
+    
+    position: static;
     width: 30rem;
-    height: 100%;
+    height: auto;
     background: #F9F6EE;
     border: solid white;
     border-radius: 0.2rem;
-    display: block;
     margin-top: 0 auto;
 }
 
@@ -62,19 +65,70 @@ body{
     height: 2rem;
     padding: 1rem 0rem 0rem 2rem;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     color: #001861; 
 }
 
-#post{
+.original_post{
 
-    height: auto;
-    border-top: solid #000000;
-    border-bottom: solid #000000;
-    padding: 1rem 0rem 0rem 1rem;
+    border: solid #000000;
+    padding: 1rem 1rem 1rem 1rem;
     background-color: #2952a3;
     color: #FFFFFF;
+}
+
+.info{
+
     display: flex;
     justify-content: left;
-    align-items: baseline;
+    align-items: center;
+
+}
+
+.profile_picture{
+
+    font-size: 3rem;
+}
+
+.profile_picture img{
+
+    width: 3rem; 
+    height: 3rem;
+}
+
+.user_name{
+
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.date{
+
+    font-size: 0.8em;
+}
+
+.content{
+    margin-left: 3.5rem;
+}
+
+.content img{
+    
+    max-width: 90%;
+    height: auto;
+    margin: 1.5rem 1rem 0.5rem;
+}
+
+.comment{
+
+    background-color: #2952a3;
+    border-radius: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    color: #FFFFFF;
+    margin: 1rem;
+}
+
+.post{
+
+    text-align: justify;
 }

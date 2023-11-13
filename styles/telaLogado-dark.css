@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #001a33;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #32de84;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#balao-logo {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#logo {
+    width: 70px;
+    height: auto;
+    border-radius: 70%;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0px;
+    padding: 20px;
+    width: calc(100% - 35cm);
+    margin: 0 auto;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.balao {
+    background-color: #03325f;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 0 20px;
+    max-width: 550px;
+    text-align: left;
+    position: relative;
+}
+
+.imagem {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 20px;
+    top: 29%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.imagem-terceiro {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.info {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.nome {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.data {
+    font-size: 0.7em;
+    display: block;
+}
+
+.texto {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.imagem-abaixo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+#user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#user-info #user-name {
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+#user-info #user-avatar {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#publicacoes-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #001a33;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+#criar-post-btn, #criar-post-coluna-btn {
+    font-size: 1.2em;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    font-weight: lighter;
+    color: white;
+}
+
+#criar-post-btn {
+    font-size: 1.2em;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #001a33;
+    align-self: center;
+}
+
+#criar-post-coluna-btn {
+    background-color: #062b4d;
+    border-radius: 14px;
+    margin-left: 300px;
+}

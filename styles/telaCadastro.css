@@ -31,7 +31,6 @@ header img {
     font-size: 0.9rem;
 }
 
-/*mexer a partir daqui*/
 body {
     display: flex;
     justify-content: center;
@@ -48,7 +47,6 @@ body {
     height: auto;
     display: flex;
     margin: 0 auto;
-
 }
 .box-cadastro {
     display: flex;
@@ -56,7 +54,7 @@ body {
     align-items: center;
     max-width: 25rem;
     margin: 10rem 8rem 10rem 3rem;
-    padding: 5rem 0;
+    padding: 5rem 0.5;
     border: solid white;
     border-radius: 1rem;
     background-color: #F9F6EE;
@@ -72,11 +70,11 @@ form {
     align-items: stretch;
 }
 .box-input {
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
 }
 .box-input input {
     width: 100%;
-    padding: 10px;
+    padding: 0.62rem;
     box-sizing: border-box;
     border: solid;
     border-width: 0.1rem;
@@ -85,4 +83,30 @@ form {
 .possui-conta {
     margin-top: 10px;
     text-align: center;
+    margin-bottom: 1.5rem;
+}
+.possui-conta a {
+    color: #001861; 
+}
+.imagem-user{
+    font-size: 9rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.btn-cadastrar button{
+    border: solid;
+    border-radius: 0.8rem;
+    border-width: 0.1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
 }

@@ -80,11 +80,7 @@ header {
     background-color: white;
     border-radius: 0px;
     padding: 20px;
-<<<<<<< HEAD
-    width: 30rem;
-=======
     width: calc(100% - 35cm);
->>>>>>> ad4a36fcea8eb32e10a5ed96ecf7edffd1f7c7b4
     margin: 0 auto;
 }
 
